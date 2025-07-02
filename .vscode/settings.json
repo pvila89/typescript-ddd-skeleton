@@ -27,5 +27,19 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"prettier.configPath": "./.prettierrc",
-	"prettier.requireConfig": true
+	"prettier.requireConfig": true,
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/.git": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true
+	},
+	"typescript.preferences.includePackageJsonAutoImports": "off",
+	"typescript.suggest.autoImports": false,
+	"typescript.validate.enable": true,
+	"typescript.surveys.enabled": false,
+	"postman.settings.dotenv-detection-notification-visibility": false
 }
